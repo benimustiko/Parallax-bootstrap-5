@@ -1,0 +1,85 @@
+.parallax {
+    /* Set a specific height */
+    min-height: 90vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/3551711/pexels-photo-3551711.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+}
+
+.p2 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/1087735/pexels-photo-1087735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.p3 {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/3410495/pexels-photo-3410495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.bg-judul {
+    background-color: rgba(0, 0, 0, 0.404);
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-judul {
+    min-width: 150px;
+}
+
+.modal-header button {
+    position: absolute;
+    z-index: 99999;
+    background-color: coral;
+}
+
+.modal-title {
+    text-align: right;
+}
+
+#modal-image {
+    height: 69vh;
+}
+
+.thumbnail {
+    height: 290px;
+    width: 390px;
+    object-fit: cover;
+}
+
+@media (min-width: 460px) {
+
+}
+
+@media (min-width: 768px) {
+    .thumbnail {
+        max-height: 150px;
+        min-width: 220px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .thumbnail {
+        min-height: 200px;
+        min-width: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .thumbnail {
+        min-height: 220px;
+        max-width: 350px;
+        object-fit: cover;
+    }
+}
